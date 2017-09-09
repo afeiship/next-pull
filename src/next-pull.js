@@ -10,7 +10,7 @@
     for (var i = 0; i < args_.length; i++) {
       var value = args_[i];
       var len = inArray.length;
-      for (var j = 0; j < inArray.length; j++) {
+      for (var j = 0; j < len; j++) {
         var element = inArray[j];
         if( value === element){
           inArray.splice(j,1);
